@@ -5,6 +5,7 @@
   "author": "haoda",
   "license": "Apache-2.0",
   "dependencies": {
+    "node-cron": "^2.0.3",
     "qrcode-terminal": "^0.12.0",
     "wechaty": "^0.56.6",
     "wechaty-puppet-padlocal": "^0.2.31"
@@ -14,6 +15,6 @@
     "typescript": "^4.1.5"
   },
   "scripts": {
-    "demo": "./node_modules/.bin/ts-node main.ts"
+    "start": "./node_modules/.bin/ts-node main.ts"
   }
 }
